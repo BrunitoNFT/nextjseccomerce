@@ -1,0 +1,30 @@
+{
+  "name": "team-2",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "format": "prettier --write . --config ./.prettierrc",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.12.3",
+    "@tanstack/react-query": "^4.29.5",
+    "axios": "^1.4.0",
+    "eslint": "8.39.0",
+    "eslint-config-next": "13.3.4",
+    "next": "13.3.4",
+    "next-auth": "^4.22.1",
+    "nprogress": "^0.2.0",
+    "qs": "^6.11.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sonner": "^0.3.5"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.8"
+  }
+}
